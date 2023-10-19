@@ -1,0 +1,16 @@
+.skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+
+}
+
+.skills i {
+    font-size: 2.5rem;
+}
+.imgIcon { 
+    width: 40px;
+    filter: grayscale();
+}

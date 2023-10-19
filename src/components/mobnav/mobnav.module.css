@@ -1,0 +1,43 @@
+.side{
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+    width: 100vw;
+    justify-content: center;
+    z-index: 2;
+    background-color: var(--main-color);
+    padding: 2rem;
+    margin-left: 400px;
+    position: absolute;
+    animation: slide .3s ease-in-out forwards; 
+}
+
+.side ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    width: 100%;
+    padding: 1rem;
+    padding-bottom: 1rem;
+    border: none;
+}
+a{
+    text-decoration: none;
+    color: #eee;
+    font-size: 1.5rem;
+}
+.active{
+    color: var(--third-color);
+}
+
+@keyframes slide {
+    0%{
+        margin-left: 400px;
+    }
+    100%{
+        margin-left: 0px;
+    }
+}

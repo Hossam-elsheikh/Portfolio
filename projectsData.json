@@ -1,0 +1,295 @@
+{
+  "Details": {
+    "currentJobTitle": "Front-end Web developer",
+    "cvLink": "https://drive.usercontent.google.com/download?id=1i8apva9IbSaI9fjTzZBXIG297eM7nq4c&export=download&authuser=0&confirm=t&uuid=7ea15217-b347-406b-889c-d10dbd20ef1c&at=APZUnTVhYyD9Yd5iBGzXr-KxBoSB:1697750648212",
+    "picLink": "https://i.ibb.co/FqFrG55/pic5.png",
+    "brief": "Junior Front-End Developer with a proven ability to collaborate effectively with senior developers while spending extra time to be mentored. Enjoy working closely with team members to ensure workloads are effectively redirected to bottlenecks and personally picking up the slack when necessary. With a passion for both personal growth and for software development, I attended a 1000+ hour coding bootcamp to learn new languages while sharpening existing skills. ",
+    "links": [
+      {
+        "title": "GitHub",
+        "url": "https://github.com/Hossam-elsheikh",
+        "icon": "fa-brands fa-github"
+      },
+      {
+        "title": "Linkedin",
+        "url": "https://www.linkedin.com/in/hossam-elsheikh-5459a1166/",
+        "icon": "fa-brands fa-linkedin"
+      },
+      {
+        "title": "Facebook",
+        "url": "https://www.facebook.com/hossam.elshie5",
+        "icon": "fa-brands fa-facebook"
+      },
+      {
+        "title": "Gmail",
+        "url": "mailto:hossam.m.elsheikh@gmail.com",
+        "icon": "fa-solid fa-envelope"
+      }
+    ],
+    "skills": {
+      "have": [
+        { "title": "Html5", "icon": "fa-brands fa-html5" },
+        { "title": "CSS", "icon": "fa-brands fa-css3" },
+        { "title": "JavaScript", "icon": "fa-brands fa-js" },
+        { "title": "SASS", "icon": "fa-brands fa-sass" },
+        { "title": "Bootstrap", "icon": "fa-brands fa-bootstrap" },
+        { "title": "React.js", "icon": "fa-brands fa-react" },
+        { "title": "Figma", "icon": "fa-brands fa-figma" },
+        { "title": "Material UI", "icon": "https://seeklogo.com/images/M/mui-logo-56F171E991-seeklogo.com.png" },
+        { "title": "PWA", "icon": "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/pwa-icon.png" },
+        { "title": "Tailwind", "icon": "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/tailwind-css-icon.png" }
+      ],
+      "learning": [
+        { "title": "Node.js", "icon": "fa-brands fa-node-js" },
+        { "title": "Angular", "icon": "fa-brands fa-angular" },
+        { "title": "MongoDB", "icon": "fa-solid fa-database" },
+        { "title": "uikit", "icon": "fa-brands fa-uikit" }
+       ]
+    },
+    "courses": [
+      {
+        "title": "ITI Intensive MEARN Course",
+        "description": "I've Completed an intensive MEARN Full stack course in ITI Sohaj-Egypt, and we build Walmart clone as a final Project.",
+        "topics": [
+          "OS Fundamentals",
+          "Network Fundamentals",
+          "Database Fundamentals",
+          "JavaScript Fundamentals",
+          "HTML5 & CSS3",
+          "ES.Next",
+          "RWD Fundamentals",
+          "Bootstrap Fundamentals",
+          "JavaScript Unit Testing & TDD Technique",
+          "JavaScript Design Patterns",
+          "UI/UX Fundamentals",
+          "Node.js Fundamentals",
+          "MongoDB",
+          "TypeScript Fundamentals",
+          "Angular Fundamentals",
+          "React JS",
+          "Version Control (git & github)",
+          "Secure Coding",
+          "Web Tooling and Optimization (gulp & webpack)",
+          "PWA & Service Workers",
+          "CloudPlatforms"
+        ],
+        "date": "15th Nov 2023",
+        "organization": "ITI",
+        "link": "#"
+      },
+      {
+        "title": "React - The Complete guide",
+        "description": "I've Completed a React.js Full Course on Udemy, Presented By Maximilian Schwarzmüller.",
+        "topics": [
+          "React basics",
+          "React Hooks",
+          "Redux & Redux toolkit",
+          "SPA with react router",
+          "React Query",
+          "Animating React App",
+          "Testing React Apps",
+          "React ts",
+          "Next js"
+        ],
+        "date": "2nd Mar 2023",
+        "organization": "Udemy",
+        "link": "https://udemy-certificate.s3.amazonaws.com/image/UC-3bb3c897-01ca-46e3-a5dd-7366acd42bfa.jpg?v=1679933047000"
+      }
+    ],
+    "workExperiences": [
+      {
+        "position": "",
+        "startDate": "",
+        "endDate": "",
+        "description": "",
+        "organization": "",
+        "orgLinkedin": ""
+      }
+    ]
+  },
+  "projects": [
+    {
+      "title": "Admin Dashboard",
+      "type": "admin tools",
+      "projectIcon": "",
+      "featured": true,
+      "id": 1,
+      "keyFeatures": [
+        "customized charts",
+        "well organized tables",
+        "easy profile accessibility tools",
+        "in progress : Planer Manager",
+        "in progress: Profits Analysis"
+      ],
+      "framework": "React.js",
+      "gitLink": "https://github.com/Hossam-elsheikh/Admin-Dashboard",
+      "livePreview": "https://global-admin-3ad57.web.app/",
+      "description": "This admin dashboard allows at-a-glance access to the crucial information for the specific needs of a particular professional or a team, providing users with a comprehensive overview of the key data, reports, KPIs, etc., and enable drilling down to more details if required.",
+      "specs": [
+        {
+          "gif": "https://github.com/Hossam-elsheikh/Admin-Dashboard/raw/master/gifs/ezgif.com-video-to-gif.gif",
+          "description": "Appealing interface with Charts"
+        },
+        {
+          "gif": "https://github.com/Hossam-elsheikh/Admin-Dashboard/raw/master/gifs/ezgif.com-video-to-gif%20(1).gif",
+          "description": "Advanced Table Filtering"
+        },
+        {
+          "gif": "https://github.com/Hossam-elsheikh/Admin-Dashboard/raw/master/gifs/ezgif.com-video-to-gif%20(2).gif",
+          "description": "Dark Mode"
+        }
+      ],
+      "tools": [
+        { "faIcon": true, "icon": "fa-react", "title": "React js" },
+        {
+          "faIcon": false,
+          "icon": "https://www.svgrepo.com/show/354262/react-router.svg",
+          "title": "React router DOM"
+        },
+        {
+          "faIcon": false,
+          "icon": "https://www.chartjs.org/img/chartjs-logo.svg",
+          "title": "chart js"
+        },
+        {
+          "faIcon": false,
+          "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Font_Awesome_logomark_blue.svg/1200px-Font_Awesome_logomark_blue.svg.png",
+          "title": "fontAwesome"
+        },
+        {
+          "faIcon": true,
+          "icon": "fa-sass",
+          "title": "sass"
+        }
+      ],
+      "dateCreated": "26th Feb 2023",
+      "dateUpdated": "5th Apr 2023",
+      "partners": []
+    },
+    {
+      "title": "Noter App",
+      "type": "Productivity Tool",
+      "featured": true,
+      "projectIcon": "",
+      "id": 2,
+      "keyFeatures": [
+        "Creating, Updating and deleting Notes",
+        "Creating, Updating and deleting Tasks and Tasks Board",
+        "Search Notes by name or content",
+        "Changing notes background colors",
+        "in Progress : creating database"
+      ],
+      "framework": "React.js",
+      "gitLink": "https://github.com/Hossam-elsheikh/noter-app",
+      "livePreview": "https://noter-app-2053b.web.app/",
+      "description": "This app lets you create update and delete notes and tasks efficiently and smoothly, with an appealing simple design. ",
+      "specs": [
+        {
+          "gif": "https://github.com/Hossam-elsheikh/noter-app/raw/main/gifs/noter.gif",
+          "description": "Creating a new note"
+        },
+        {
+          "gif": "https://github.com/Hossam-elsheikh/noter-app/raw/main/gifs/tasker.gif",
+          "description": "Creating a new tasks board and adding tasks to it"
+        },
+        {
+          "gif": "https://github.com/Hossam-elsheikh/noter-app/raw/main/gifs/delete.gif",
+          "description": "deleting with sweet alert confirmation"
+        }
+      ],
+      "tools": [
+        { "faIcon": true, "icon": "fa-react", "title": "React js" },
+        {
+          "faIcon": false,
+          "icon": "https://www.svgrepo.com/show/354262/react-router.svg",
+          "title": "React router DOM"
+        },
+
+        {
+          "faIcon": false,
+          "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Font_Awesome_logomark_blue.svg/1200px-Font_Awesome_logomark_blue.svg.png",
+          "title": "fontAwesome"
+        },
+        {
+          "faIcon": true,
+          "icon": "fa-alert",
+          "title": "sweet alert 2"
+        }
+      ],
+      "dateCreated": "9th Apr 2023",
+      "dateUpdated": "11th May 2023",
+      "partners": [
+        {
+          "name": "Khaled Mohamed",
+          "pic": "https://media.licdn.com/dms/image/D4D03AQEKYvnUsGHFtQ/profile-displayphoto-shrink_400_400/0/1686135030955?e=1702512000&v=beta&t=DzBecfqu3fYpe8pteDKjn8fcExMhLfeJ0sjf1v2Zd8M",
+          "linkedin": "https://www.linkedin.com/in/khaledmohamedram/"
+        }
+      ]
+    },
+    {
+      "title": "Expenses Tracker",
+      "type": "Productivity Tool",
+      "featured": false,
+      "projectIcon": "",
+      "id": 3,
+      "keyFeatures": [
+        "adding Expenses and incomes with deferent categories",
+        "wonderful charts visualization"
+      ],
+      "framework": "React.js",
+      "gitLink": "https://github.com/Hossam-elsheikh/Expense-Tracker",
+      "livePreview": "https://hossam-elsheikh.github.io/Expense-Tracker/",
+      "description": "This tool helps you track your expenses, it includes charts for easy visualization and customizations.",
+      "specs": [
+        {
+          "gif": "https://github.com/Hossam-elsheikh/Expense-Tracker/raw/master/screenshots/Screenshot%20from%202023-04-05%2015-53-25.png",
+          "description": "added some expenses and incomes to the panel."
+        }
+      ],
+      "tools": [
+        { "faIcon": true, "icon": "fa-react", "title": "React js" },
+        {
+          "faIcon": false,
+          "icon": "https://www.chartjs.org/img/chartjs-logo.svg",
+          "title": "chart js"
+        }
+      ],
+      "dateCreated": "25th Mar 2023",
+      "dateUpdated": "5th Apr 2023",
+      "partners": []
+    },
+    {
+      "title": "Wacom One",
+      "type": "Landing Page",
+      "featured": false,
+      "projectIcon": "",
+      "id": 4,
+      "keyFeatures": ["Landing Page Clone for Wacom one"],
+      "framework": "React.js",
+      "gitLink": "https://github.com/Hossam-elsheikh/Wacom-one",
+      "livePreview": "https://wacom-one.web.app/",
+      "description": "This is a simple landing page for Wacom One tablet.",
+      "specs": [
+        {
+          "gif": "https://github.com/Hossam-elsheikh/Wacom-one/raw/main/gifs/web.gif",
+          "description": "Web Preview"
+        },
+        {
+          "gif": "https://github.com/Hossam-elsheikh/Wacom-one/raw/main/gifs/mobile.gif",
+          "description": "Mobile Preview"
+        }
+      ],
+      "tools": [
+        { "faIcon": true, "icon": "fa-react", "title": "React js" },
+        {
+          "faIcon": false,
+          "icon": "https://www.svgrepo.com/show/354262/react-router.svg",
+          "title": "React router DOM"
+        }
+      ],
+      "dateCreated": "1st Apr 2023",
+      "dateUpdated": "5th Apr 2023",
+      "partners": []
+    }
+  ]
+}

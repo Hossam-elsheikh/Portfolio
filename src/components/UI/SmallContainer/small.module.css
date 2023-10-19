@@ -1,0 +1,20 @@
+.sm{
+    display: flex;
+    flex-direction: row;
+    max-width: 100vw;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    padding:1rem 2rem;
+    position: relative;
+    overflow-x: hidden;
+    width: 90%;
+    flex-wrap: wrap;
+    /* background-color: #2E4374; */
+}
+
+@media (max-width: 768px){
+    .sm{
+        flex-direction: column;
+    }
+}

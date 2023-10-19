@@ -1,0 +1,30 @@
+.proj{
+    text-align: center;
+    position: relative;
+    height: 200px;
+
+
+}
+.proj img {
+    min-height: 170px;
+}
+
+.proj a:hover{
+    background-color: rgba(0, 0, 0, 0.632);
+    
+}
+
+.view{
+    position: absolute;
+    color: var(--main-color);
+    text-decoration: underline;
+    right: 15px;
+    font-size: .8rem;
+
+}
+
+@media (max-width: 768px){
+ .proj{
+    width: 100%;
+ }
+}

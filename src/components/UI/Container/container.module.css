@@ -1,0 +1,19 @@
+.lg{
+    display: flex;
+    flex-direction: column;
+    max-width: 100vw;
+    gap: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    padding:1rem 2rem;
+    position: relative;
+    overflow-x: hidden;
+    background-color: var(--main-color);
+    width: 70%;
+    /* background-color: #2E4374; */
+}
+@media (max-width: 768px){
+    .lg{
+        width: 100%;
+    }
+}
