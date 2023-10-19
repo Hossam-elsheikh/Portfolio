@@ -1,8 +1,6 @@
-import React from "react";
 import BgContainer from "../UI/bgCont/BgContainer";
 import classes from "./projects.module.css";
 import { Link } from "react-router-dom";
-import noter from '../../assets/noter.png'
 import { useSelector } from "react-redux";
 const Projects = () => {
   const projects = useSelector((data)=> data.projects.projects)
