@@ -1,8 +1,5 @@
-import React, { useEffect, useState } from "react";
 import BgContainer from "../UI/bgCont/BgContainer";
 import classes from "../project/project.module.css";
-import img1 from "../../assets/noter.png";
-import khaled from "../../assets/khaled.jpeg";
 import { Link, useParams } from "react-router-dom";
 import { useSelector } from "react-redux";
 const Project = () => {
