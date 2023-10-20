@@ -10,12 +10,12 @@ const Featured = () => {
     <Container bg='var(--main-color)' clr='var(--sec-color)'>
       <h2>Featured Projects</h2>
       <p>Click to view Details</p>
-      <Link to='/projects' className={classes.view}>View all</Link>
       <SmallContainer bg='#70c2eb'>
       {featuredProjects.map((project,index)=><div  key={index} className={classes.proj}>
        
         <Link to={`/projects/${project.id}`}><img src={project.specs[0].gif}/></Link>
       </div>)}
+      <Link to='/projects' className={classes.view}>View all Projects</Link>
       </SmallContainer>
     </Container>
   )

@@ -10,7 +10,7 @@ const Skills = () => {
   const details = useSelector((data) =>data.details.details)
   return (
     <Container pad='3rem' bg='var(--sec-color)'>
-      <h2 style={{color:'var(--third-color)'}}>My Skills' Bag</h2>
+      <h4 style={{color:'var(--third-color)'}}>My Skills' Bag</h4>
       <div className={classes.skills}>
         {details.skills && details.skills.have.map((skill)=> <>
       {skill.icon.length < 30 ?
@@ -20,7 +20,7 @@ const Skills = () => {
         </>)}
    
       </div>
-      <h2 style={{color:'var(--third-color)'}}>Currently Learning</h2>
+      <h4 style={{color:'var(--third-color)'}}>Currently Learning</h4>
       <div className={classes.skills}>
       {details.skills && details.skills.learning.map((skill)=> <>
       {skill.icon.length < 30 ?

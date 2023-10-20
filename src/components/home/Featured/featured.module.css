@@ -15,8 +15,7 @@
 }
 
 .view{
-    position: absolute;
-    color: var(--main-color);
+    color: var(--sec-color);
     text-decoration: underline;
     right: 15px;
     font-size: .8rem;
