@@ -5,28 +5,27 @@ import { useSelector } from "react-redux";
 const Project = () => {
   const {id} = useParams()
   const project= useSelector((data)=> data.projects.projects.find((p)=> p.id === +id))
-  console.log(project);
   return (
     <BgContainer>
       <div className={classes.projContainer}>
       <Link className={classes.back} to='/projects'>Back To Projects</Link>
         <div className={classes.title}>
-        <h1>{project.title}</h1>
+        <h1>{project?.title}</h1>
         <div className={classes.btns}>
-          <Link to={project.gitLink} target="_blank">Git Repositry</Link>
-          <Link to={project.livePreview} target="_blank">Live Preview</Link>
+          <Link to={project?.gitLink} target="_blank">Git Repositry</Link>
+          <Link to={project?.livePreview} target="_blank">Live Preview</Link>
         </div>
         </div>
         <div className={classes.details}>
           <div className={classes.left}>
             <p className={classes.mainDes}>
-              {project.description}
+              {project?.description}
             </p>
             <ul>
               <p>Key Features</p>
-              {project.keyFeatures.map((keyFeature,index) =><li key={index}>{keyFeature}</li>)}
+              {project?.keyFeatures.map((keyFeature,index) =><li key={index}>{keyFeature}</li>)}
             </ul>
-            {project.specs.map((spec,index)=> <div key={index} className={classes.feature}>
+            {project?.specs.map((spec,index)=> <div key={index} className={classes.feature}>
               <p style={{marginBottom:'1rem'}}>
                 {spec.description}
               </p>
@@ -36,7 +35,7 @@ const Project = () => {
           <div className={classes.right}>
             <div className={classes.section}>
               <h3>Tools</h3>
-              {project.tools.map((tool,index) =>{
+              {project?.tools.map((tool,index) =>{
                 return tool.faIcon ? <div key={index} className={classes.tool}>
                 <i className={`fa-brands ${tool.icon}`}></i>
                 <p>{tool.title}</p>
@@ -49,9 +48,9 @@ const Project = () => {
             </div>
             <hr />
              <div className={classes.section}>
-              {project.partners && <h3>Partners</h3>}
+              {project?.partners && <h3>Partners</h3>}
               <div className={classes.partners}>
-                {project.partners && project.partners.map((partner,index)=>{
+                {project?.partners && project?.partners.map((partner,index)=>{
                   return <div key={index} className={classes.partner}>
                   <img src={partner.pic} />
                   <Link
@@ -63,11 +62,11 @@ const Project = () => {
                   </Link>
                 </div>
                 })}
-                {project.partners && <hr />}
+                {project?.partners && <hr />}
                 <h5>Date Created</h5>
-                <p style={{fontSize:'.7rem'}}>{project.dateCreated}</p>
+                <p style={{fontSize:'.7rem'}}>{project?.dateCreated}</p>
                 <h5>Date Updated</h5>
-                <p style={{fontSize:'.7rem'}}>{project.dateUpdated}</p>
+                <p style={{fontSize:'.7rem'}}>{project?.dateUpdated}</p>
               </div>
             </div>
           </div>

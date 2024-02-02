@@ -15,6 +15,7 @@ const Featured = () => {
        
         <Link to={`/projects/${project.id}`}><img src={project.specs[0].gif}/></Link>
       </div>)}
+      <br/>
       <Link to='/projects' className={classes.view}>View all Projects</Link>
       </SmallContainer>
     </Container>

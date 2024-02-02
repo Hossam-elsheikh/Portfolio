@@ -35,16 +35,25 @@
         { "title": "Bootstrap", "icon": "fa-brands fa-bootstrap" },
         { "title": "React.js", "icon": "fa-brands fa-react" },
         { "title": "Figma", "icon": "fa-brands fa-figma" },
-        { "title": "Material UI", "icon": "https://seeklogo.com/images/M/mui-logo-56F171E991-seeklogo.com.png" },
-        { "title": "PWA", "icon": "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/pwa-icon.png" },
-        { "title": "Tailwind", "icon": "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/tailwind-css-icon.png" }
+        {
+          "title": "Material UI",
+          "icon": "https://seeklogo.com/images/M/mui-logo-56F171E991-seeklogo.com.png"
+        },
+        {
+          "title": "PWA",
+          "icon": "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/pwa-icon.png"
+        },
+        {
+          "title": "Tailwind",
+          "icon": "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/tailwind-css-icon.png"
+        }
       ],
       "learning": [
         { "title": "Node.js", "icon": "fa-brands fa-node-js" },
         { "title": "Angular", "icon": "fa-brands fa-angular" },
         { "title": "MongoDB", "icon": "fa-solid fa-database" },
         { "title": "uikit", "icon": "fa-brands fa-uikit" }
-       ]
+      ]
     },
     "courses": [
       {
@@ -164,6 +173,130 @@
       ],
       "dateCreated": "26th Feb 2023",
       "dateUpdated": "5th Apr 2023",
+      "partners": []
+    },
+    {
+      "title": "EzyBuy",
+      "type": "E Commerce",
+      "projectIcon": "",
+      "featured": true,
+      "id": 11,
+      "keyFeatures": [
+        "Buying products with PayPal and Visa",
+        "Browsing different categories",
+        "Arabic Localization",
+        "Tracking Orders",
+        "Adding To favorites"
+      ],
+      "framework": "React.js",
+      "gitLink": "https://github.com/Hossam-elsheikh/EzyBuy-user",
+      "livePreview": "https://ezy-buy-user.vercel.app/",
+      "description": "This E-commerce Project is a Full stack MEARN project that i was working on whith my Team.",
+      "specs": [
+        {
+          "gif": "https://s13.gifyu.com/images/SCldH.gif",
+          "description": "Home Page and Search for Products"
+        },
+        {
+          "gif": "https://s13.gifyu.com/images/SCldw.gif",
+          "description": "Buying a Product and Tracking order"
+        },
+        {
+          "gif": "https://s13.gifyu.com/images/SCldE.gif",
+          "description": "Filters and Localization"
+        }
+      ],
+      "tools": [
+        { "faIcon": true, "icon": "fa-react", "title": "React js" },
+        {
+          "faIcon": false,
+          "icon": "https://www.svgrepo.com/show/354262/react-router.svg",
+          "title": "React router DOM"
+        },
+        {
+          "faIcon": true,
+          "icon": "fa-language",
+          "title": "i18n"
+        },
+        {
+          "faIcon": false,
+          "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Font_Awesome_logomark_blue.svg/1200px-Font_Awesome_logomark_blue.svg.png",
+          "title": "fontAwesome"
+        },
+        {
+          "faIcon": true,
+          "icon": "fa-brands fa-bootstrap",
+          "title": "Bootstrap"
+        },
+        {
+          "faIcon": true,
+          "icon": "fa-brands fa-node-js",
+          "title": "Node.js"
+        },
+        {
+          "faIcon": true,
+          "icon": "fa-database",
+          "title": "MongoDB"
+        }
+      ],
+      "dateCreated": "1st Jul 2023",
+      "dateUpdated": "5th Dec 2023",
+      "partners": [
+        { "name": "Mahmoud Mohamed", "pic": "https://avatars.githubusercontent.com/u/50493125?v=4", "linkedin": "https://www.linkedin.com/in/mahmoud-mohamed-ahmed/" },
+        { "name": "Aya Shehata", "pic": "https://avatars.githubusercontent.com/u/69397143?v=4", "linkedin": "https://www.linkedin.com/in/aya-shehata-81624b24a/" }
+      ]
+    },
+    {
+      "title": "Beauty Center",
+      "type": "Landing Page",
+      "projectIcon": "",
+      "featured": true,
+      "id": 12,
+      "keyFeatures": [
+        "Nice Home Layout",
+        "Fully Responsive Design",
+        "Great User Experience"
+      ],
+      "framework": "NEXT.js",
+      "gitLink": "https://github.com/Hossam-elsheikh/Beauty-center",
+      "livePreview": "https://shop.beauty-t-center.com/#home",
+      "description": "This is a simple Landing Page for Beauty center multi-trade E-commerce.",
+      "specs": [
+        {
+          "gif": "https://s13.gifyu.com/images/SClnW.gif",
+          "description": "Appealing interface"
+        },
+        {
+          "gif": "https://s13.gifyu.com/images/SCln8.gif",
+          "description": "Form with portaled Terms and Conditions sections"
+        }
+      ],
+      "tools": [
+        { "faIcon": true, "icon": "fa-react", "title": "React js" },
+        {
+          "faIcon": false,
+          "icon": "https://static-00.iconduck.com/assets.00/nextjs-icon-1024x617-rl2bcqfj.png",
+          "title": "NEXT.js"
+        },
+        {
+          "faIcon": false,
+          "icon": "https://www.svgrepo.com/show/354262/react-router.svg",
+          "title": "React router DOM"
+        },
+        
+        {
+          "faIcon": false,
+          "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Font_Awesome_logomark_blue.svg/1200px-Font_Awesome_logomark_blue.svg.png",
+          "title": "fontAwesome"
+        },
+        {
+          "faIcon": true,
+          "icon": "fa-sass",
+          "title": "sass"
+        }
+      ],
+      "dateCreated": "2nd Sep 2023",
+      "dateUpdated": "12th Sep 2023",
       "partners": []
     },
     {
