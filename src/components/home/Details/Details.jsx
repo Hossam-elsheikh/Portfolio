@@ -28,7 +28,7 @@ const Details = () => {
             );
           })}
         </div>
-        <form method="get" action="/src/assets/Hossam-Elsheikh.pdf">
+        <form method="get" action={details.cvLink}>
           <button onClick={() => navigate("/about")}>
             <h3>More Details</h3>
           </button>
